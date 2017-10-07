@@ -94,7 +94,7 @@ h1 {
 .headerSection{
   width: 100%;
   height: 650px;
-  background-image: url(/Users/wilsonportillo/Desktop/Portfolio/img/boston.jpeg);
+  background-image: url(img/boston.jpeg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 20px #2D9CDB;
