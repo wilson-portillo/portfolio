@@ -1,0 +1,549 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 10px;
+     line-height: 1.4;
+     font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header, footer{
+ height: 100px;
+ clear: both;
+
+}
+section{
+  height: 200px;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+/*********************************************************/
+/*********************-HomeBanner-************************/
+/*********************************************************/
+h1 {
+  width: 53%;
+  margin: 10% 23.5% auto;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 9.6em;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 4px 4px 20px rgba(0, 0, 0, 1);
+}
+.headerSection h2 {
+  width: 53%;
+  margin: 0.5% 23.5% auto;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 1);
+}
+.headerSection{
+  width: 100%;
+  height: 650px;
+  background-image: url(/Users/wilsonportillo/Desktop/Portfolio/img/boston.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 20px #2D9CDB;
+}
+/*********************************************************/
+/*********************-HomeBanner-************************/
+/*********************************************************/
+/*********************************************************/
+/*********************-Navigation-************************/
+/*********************************************************/
+nav > ul {
+  list-style: none;
+  width: 50%;
+  height: 32px;
+  margin: 36px 0 0 50%;
+  padding: 0;
+  color: white;
+}
+nav > ul > li {
+  float: left;
+  height: 32px;
+  font-size: 2.2em;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, .5);
+}
+.butSize1 {
+  width: 12%;
+  margin-right: 4%;
+}
+.butSize2 {
+  width: 13%;
+  margin-right: 4%;
+}
+.butSize3 {
+  width: 16%;
+  margin-right: 4%;
+}
+.butSize4 {
+  width: 21%;
+  margin-right: 4%;
+}
+.butSize5 {
+  width: 17%;
+}
+/*********************************************************/
+/*********************-Navigation-************************/
+/*********************************************************/
+
+
+/*********************************************************/
+/*********************-HomeSection-**********************/
+/*********************************************************/
+
+/*********************************************************/
+/*********************-QuoteSection-**********************/
+/*********************************************************/
+.quoteSection {
+  width: 100%;
+  height: 460px;
+  background-color: #F5F5F5;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+.quoteSection h3 {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 80px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 6em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.quoteSection h4 {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 1.2%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 3.2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.quoteSection img {
+  width: 20%;
+  margin-left: 77%;
+  margin-top: 24px;
+}
+/*********************************************************/
+/*********************-QuoteSection-**********************/
+/*********************************************************/
+
+/*********************************************************/
+/*********************-AboutMeSection-********************/
+/*********************************************************/
+.aboutMeSection{
+  width: 100%;
+  height: 675px;
+}
+.aboutMeSection h2 {
+  width: 64%;
+  margin-left: 33%;
+  margin-top: 72px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 72px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.aboutMeSection p {
+  width: 64%;
+  margin-left: 33%;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 2.9em;
+  text-align: justify;
+}
+.aboutMeSection span {
+  display: block;
+  width: 64%;
+  margin-left: 33%;
+  margin-top: 8px;
+  font-family: 'Great Vibes', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 60px;
+  text-align: left;
+  padding-bottom: 100px;
+}
+.aboutMeSection img {
+  float: left;
+  width: 27%;
+  margin-left: 3%;
+  margin-top: 145px;
+  border-radius: 50%;
+}
+/*********************************************************/
+/*********************-AboutMeSection-********************/
+/*********************************************************/
+
+/*********************************************************/
+/*********************-SkillSetSection-*******************/
+/*********************************************************/
+.skillSetSection {
+  width: 100%;
+  height: 1860px;
+  background: #2D9CDB;
+}
+.titleSection {
+  width: 100%;
+  height: 116px;
+  left: -2px;
+  top: 1781px;
+  background: #F5F5F5;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.5);
+}
+.titleSection h2 {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 27px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+.development{
+  width: 94%;
+  height: 703px;
+  margin-left: 3%;
+  margin-top: 100px;
+  background: #F5F5F5;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.5);
+}
+.development h3 {
+  width: 20%;
+  margin-left: 1%;
+  margin-top: 1.5%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.websiteImg1 {
+  width: 47.5%;
+  height: 61%;
+  margin-left: 0;
+  margin-top: 1.7%;
+}
+.websiteImg2 {
+  width: 47.5%;
+  height: 61%;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+/*********************************************/
+.websiteDiv1 {
+  float: left;
+  width: 38%;
+  height: 100px;
+  margin-top: .1%;
+  margin-left: 1.2%;
+}
+.websiteName1 {
+  float: left;
+  width: 63%;
+  margin-left: 1%;
+  margin-top: 1%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.line1 {
+  float: left;
+  width: 485px;
+  height: 3px;
+  margin-left: 1.4%;
+  margin-top: 0px;
+  background: #2D9CDB;
+}
+.websiteDes1 {
+  float: left;
+  width: 95%;
+  margin-left: 1.2%;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 32px;
+}
+/*********************************************/
+.websiteDiv2 {
+  height: 99px;
+  width: 39%;
+  float: right;
+  position: relative;
+  right: 11.7%;
+}
+.websiteName2 {
+  width: 51.2%;
+  margin-left: 0;
+  margin-top: 1.2%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 32px;
+  text-transform: capitalize;
+  float: left;
+  position: relative;
+  left: 19px;
+}
+.line2 {
+  width: 485px;
+  height: 3px;
+  margin-left: 19px;
+  margin-top: 49px;
+  background: #2D9CDB;
+}
+.websiteDes2 {
+  width: 93%;
+  margin-left: 0;
+  margin-top: 0.6%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 32px;
+  float: left;
+  position: relative;
+  left: 19px;
+}
+.graphicDesign{
+  width: 94%;
+  height: 703px;
+  margin-left: 3%;
+  margin-top: 150px;
+  background: #F5F5F5;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.5);
+}
+.graphicDesign h3 {
+  width: 23%;
+  margin-left: 1%;
+  margin-top: 1.5%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.graphicDiv1 {
+  background: #e1e1e1;
+  width: 47.5%;
+  height: 61%;
+  margin-left: 0;
+  margin-top: 1.7%;
+  display: inline-block;
+}
+.graphicDiv1 img {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.graphicDiv2 {
+  background: #e1e1e1;
+  width: 47.5%;
+  height: 61%;
+  margin-left: 16px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.graphicDiv2 img {
+  float: left;
+  margin-top: 8.2%;
+  width: 100%;
+}
+.designDiv1 {
+  float: left;
+  width: 44%;
+  height: 100px;
+  margin-top: 1%;
+  margin-left: 1.19%;
+}
+
+.designName1 {
+  float: left;
+  width: 76.5%;
+  margin-left: 1%;
+  margin-top: 1%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.line3 {
+  float: left;
+  width: 485px;
+  height: 3px;
+  margin-left: 1.4%;
+  margin-top: 0px;
+  background: #2D9CDB;
+}
+.designDes1 {
+  float: left;
+  width: 94%;
+  margin-left: 1.2%;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 32px;
+}
+.designDiv2 {
+  height: 99px;
+  width: 44%;
+  float: right;
+  position: relative;
+  right: 8.4%;
+}
+.designName2 {
+  width: 66.2%;
+  margin-left: 0;
+  margin-top: 3.3%;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 32px;
+  text-transform: capitalize;
+  float: left;
+  position: relative;
+  left: 19px;
+}
+.line4 {
+  width: 485px;
+  height: 3px;
+  margin-left: 42px;
+  margin-top: 62px;
+  background: #2D9CDB;
+}
+.designDes2 {
+  width: 100%;
+  margin-left: 16.2px;
+  margin-top: 0.6%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 32px;
+  float: left;
+  position: relative;
+  left: 19px;
+}
+/*********************************************************/
+/*******************-SkillSetSection-*********************/
+/*********************************************************/
+.experienceSection{
+  width: 100%;
+  height: 852px;
+  background: #2D9CDB;
+}
+.experienceDiv {
+  width: 90%;
+  height: 539px;
+  margin-left: 5%;
+  margin-top: 75px;
+  background: #F5F5F5;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.5);
+}
+.experienceDiv h3 {
+  width: 21%;
+  height: 48px;
+  margin-left: 2%;
+  margin-top: 100px;
+  padding-top: 20px;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 3.2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.experienceDiv p {
+  width: 80.5%;
+  margin-left: 9.75%;
+  margin-top: 120px;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 3.6em;
+  text-align: center;
+}
+.contactSection{
+  width: 100%;
+  height: 500px;
+  border: solid 1px black;
+}
+#main{
+  width: 100%;
+}
