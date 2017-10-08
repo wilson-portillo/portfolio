@@ -95,7 +95,7 @@ h1 {
   width: 100%;
   height: 650px;
   background-color: #2D9CDB;
-  background-image: url("../img/boston.png");
+  /*background-image: url("../img/boston.png");*/
   background-position: center;
   background-size: cover;
   border-bottom: solid 20px #2D9CDB;
